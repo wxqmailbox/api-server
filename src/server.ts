@@ -1,6 +1,9 @@
-import {app} from "./app";
+import { app } from './app';
 
-const port = 3000 || process.env.port;
-app.listen(port, () => {
-    console.log(`API Server listening on port ${port}!`);
+let tmp = 'test';
+tmp = 'change';
+
+const portNo = 3000 || process.env.port;
+app.listen(portNo, () => {
+  console.log(`API Server listening on port ${portNo}!`);
 });

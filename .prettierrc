@@ -1,0 +1,7 @@
+{
+  "singleQuote": true, // 设置强制单引号
+  "trailingComma": "es5", // 为多行数组的非末尾行添加逗号 es5的对象，数组等
+  "printWidth": 100, // 每行最大宽度 100
+  "semi": false, // 设置语句末尾不加分号
+  "jsxSingleQuote": true // jsx中使用单引号
+}
